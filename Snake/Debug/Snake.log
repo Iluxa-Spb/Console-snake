@@ -1,0 +1,35 @@
+﻿Сборка начата 25.11.2019 17:23:02.
+     1>Проект "D:\Android\Console-Snake\Snake\Snake.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\SFML-2.4.2\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D SFML_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Coordinates.cpp Field.cpp functions.cpp main.cpp snake.cpp Score.cpp
+         Score.cpp
+         snake.cpp
+         main.cpp
+         functions.cpp
+     1>d:\android\console-snake\snake\functions.cpp(62): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>d:\android\console-snake\snake\functions.cpp(64): warning C4258: i: определение из цикла for игнорируется; используется определение из внешней области видимости
+                 d:\android\console-snake\snake\functions.cpp(57): пропуск определения "i"
+                 d:\android\console-snake\snake\functions.cpp(50): используется определение "i"
+     1>d:\android\console-snake\snake\functions.cpp(87): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+     1>d:\android\console-snake\snake\functions.cpp(10): warning C4101: name: неиспользованная локальная переменная
+         Field.cpp
+         Coordinates.cpp
+         Создание кода...
+     1>d:\android\console-snake\snake\field.cpp(104): warning C4715: Field::setDirection: значение возвращается не при всех путях выполнения
+     1>d:\android\console-snake\snake\field.cpp(216): warning C4715: Field::checkField2: значение возвращается не при всех путях выполнения
+     1>d:\android\console-snake\snake\field.cpp(183): warning C4715: Field::checkField: значение возвращается не при всех путях выполнения
+     1>d:\android\console-snake\snake\field.cpp(243): warning C4715: Field::checkItem: значение возвращается не при всех путях выполнения
+     1>d:\android\console-snake\snake\field.cpp(158): warning C4715: Field::checkOver: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Android\Console-Snake\Debug\Snake.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\SFML-2.4.2\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Android\Console-Snake\Debug\Snake.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Android\Console-Snake\Debug\Snake.lib" /MACHINE:X86 Debug\Coordinates.obj
+         Debug\Field.obj
+         Debug\functions.obj
+         Debug\main.obj
+         Debug\snake.obj
+         Debug\Score.obj
+         Snake.vcxproj -> D:\Android\Console-Snake\Debug\Snake.exe
+     1>Сборка проекта "D:\Android\Console-Snake\Snake\Snake.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:06.10
